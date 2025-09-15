@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: white;
+}
+
+h1, h2 {
+  text-align: center;
+  color: blue;
+}
+
+p {
+  max-width: 700px;
+  margin: auto;
+  text-align: justify;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
+  gap: 15px;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+img:nth-child(2) {
+  display: block;
+  margin: auto; /* Center second image */
+}
